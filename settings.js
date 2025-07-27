@@ -5,16 +5,16 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "RIKA-XMD=NJ4yRZqZ#XS4VXpPh_Z0UFd3voydvgZxARjNcbphA5povHALsmWE", // Add your session id
+SESSION_ID: process.env.SESSION_ID || "RIKA-XMD=yMVwCSrQ#CZ7hX3Yyj_RmZqcZuxXSnFoDTHTg_5P8pGqXVkNn0Fw", // Add your session id
 PREFIX: process.env.PREFIX || ".",
-AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
-AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
-AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
+AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "false",
+AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
+AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 STATUS_REPLY_MSG: process.env.STATUS_REPLY_MSG || "*уσυя ѕтαтυѕ ѕєєη ву яιкα χм∂ 🌷🤍*",
 MODE: process.env.MODE || "public",
-AUTO_VOICE: process.env.AUTO_VOICE || "true",
+AUTO_VOICE: process.env.AUTO_VOICE || "false",
 AUTO_STICKER: process.env.AUTO_STICKER || "false",
-AUTO_REPLY: process.env.AUTO_REPLY || "true",    
+AUTO_REPLY: process.env.AUTO_REPLY || "false",    
 AUTO_REACT: process.env.AUTO_REACT || "false",
 FAKE_RECORDING: process.env.FAKE_RECORDING || "true",
 AUTO_TYPING: process.env.AUTO_TYPING || "false",
